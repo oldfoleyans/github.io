@@ -4053,7 +4053,7 @@ ul.uk-nav-sub {
   width: 200px;
   /* 4 */
   padding: 25px;
-  background: #e8e8ff;
+  background: #880000;
   color: #333;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15); }
 
@@ -4168,7 +4168,7 @@ ul.uk-nav-sub {
 /* Dropbar
  ========================================================================== */
 .uk-navbar-dropbar {
-  background: #e8e8ff; }
+  background: #880000; }
 
 /*
  * Slide modifier
@@ -9343,3 +9343,7 @@ p.reviewer {
 
 .ofa-list > li {
   margin-bottom: 10px; }
+
+.uk-navbar-dropdown-nav > li > a:hover,
+.uk-navbar-dropdown-nav > li > a:focus {
+  color: #ffffff; }
